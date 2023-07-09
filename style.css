@@ -1,0 +1,211 @@
+body {
+  background-image: url(./assets/body-background.jpg);
+}
+
+.container {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.input-box {
+  text-align: center;
+}
+
+.input {
+  word-wrap: break-word;
+  width: 50%;
+  padding: 12px 20px;
+  margin: 10px 5px;
+  box-sizing: border-box;
+  border-radius: 20% 0;
+  background-color: rgb(231, 231, 231);
+}
+
+.input:hover {
+  border: 2px solid rgb(81, 0, 255);
+}
+
+.input:focus {
+  background-color: rgb(255, 255, 255);
+}
+
+.invalid {
+  border: 2px solid red;
+  background-color: rgb(255, 205, 205);
+}
+
+.add-item-btn {
+  background-color: #48428f;
+  color: white;
+  border: none;
+  padding: 3px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-item-btn:hover {
+  background-color: #8e88ce;
+  color: rgb(0, 0, 0);
+  border: none;
+  font-style: italic;
+  padding: 3px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-btn-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.list {
+  border-radius: 15px;
+  width: 85%;
+  color: white;
+  background-color: rgb(113, 143, 214);
+  padding: 0.5%;
+  text-align: center;
+}
+
+label {
+  font-size: large;
+  padding: 1%;
+  margin: 2%;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 30% 0;
+}
+
+.item {
+  background-color: rgb(255, 255, 255);
+  text-align: right;
+  color: black;
+  margin: 1%;
+  padding: 0.5%;
+  border-radius: 5px;
+  transform: translateX(-18px);
+}
+
+.item-text {
+  margin: 1%;
+  word-wrap: break-word;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.done-item-text {
+  text-decoration: line-through;
+  color: rgb(167, 167, 167);
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  transform: translateY(7.5px);
+}
+
+.del-item-btn {
+  margin: 4px;
+  background-color: #48428f;
+  color: white;
+  border: none;
+  padding: 3px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.del-item-btn:hover {
+  background-color: #8e88ce;
+  color: rgb(0, 0, 0);
+  border: none;
+  font-style: italic;
+  padding: 3px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.del-btn-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.all-done-btn {
+  margin: 2%;
+  background-color: #48428f;
+  color: white;
+  border: none;
+  padding: 3px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.all-done-btn:hover {
+  background-color: #8e88ce;
+  color: rgb(0, 0, 0);
+  border: none;
+  font-style: italic;
+  padding: 3px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.all-done-icon {
+  border-radius: 3px;
+  width: 20px;
+  height: 20px;
+  margin: 3px;
+}
+
+.del-all-btn {
+  margin: 2%;
+  background-color: #48428f;
+  color: white;
+  border: none;
+  padding: 3px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.del-all-btn:hover {
+  background-color: #8e88ce;
+  color: rgb(0, 0, 0);
+  border: none;
+  font-style: italic;
+  padding: 3px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.del-all-icon {
+  width: 25px;
+  height: 25px;
+}

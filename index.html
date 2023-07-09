@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form class="input-box">
+        <input
+          class="input"
+          type="text"
+          placeholder="What You Planned To Do?"
+          id="input"
+        />
+        <button class="add-item-btn" onclick="addTask()">
+          Add <img class="add-btn-icon" src="./assets/plus.png" />
+        </button>
+      </form>
+      <div class="list center-block">
+        <label>Your Tasks List</label>
+        <ul id="listItem"></ul>
+        <button class="all-done-btn" type="reset" onclick="allDone()">
+          All Done <img class="all-done-icon" src="./assets/all-done-icon.png" />
+        </button>
+        <button class="del-all-btn" type="reset" onclick="deleteAll()">
+          Delete All <img class="del-all-icon" src="./assets/del-all-icon.png" />
+        </button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
